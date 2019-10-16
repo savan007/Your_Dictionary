@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yourdictionary"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.yourdictionary.Start"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.Online"
+            android:label="@string/title_activity_online" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.Recent"
+            android:label="@string/title_activity_recent" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.Rate"
+            android:label="@string/title_activity_rate" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.DatabaseHelper"
+            android:label="@string/title_activity_database_helper" >
+        </activity>
+        <activity
+            android:name="com.example.yourdictionary.Detail"
+            android:label="@string/title_activity_detail" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+</manifest>
